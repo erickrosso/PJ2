@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+/* navigation */
+
+.navigation {
+    float: right;
+}
+
+.navigation::before {
+    content: '+';
+    padding: 0 7px 0 7px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 27px;
+    position: relative;
+    bottom: 7px;
+}
+
+.favorite {
+    height: 35px;
+    margin-left: 18px;
+}
+
+.message {
+    height: 35px;
+    margin-left: 18px;
+}
+
+/* friends */
+
+.friends {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.people {
+    display: inline-block;
+    border: 3px solid #F80BA7;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+/* post */
+
+.post {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 3px solid #000;
+}
+
+.name .people {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px 0 10px;
+}
+
+.name h2 {
+    font-family: -webkit-pictograph;
+    font-size: 27px;
+    margin: 5px 0 5px 0;
+}
+
+.cont{
+    border: 3px solid #000;
+    border-top: 0;
+    text-align: center;
+    font-family: -webkit-pictograph;
+    font-size: 27px;
+}
+
+.cont p {
+    margin-top: 0;
+    line-height: 100px;
+    font-weight: 700;
+}
